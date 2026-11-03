@@ -2,7 +2,7 @@
 
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-export RETINA_REPO="$HERE"                 # the retina/ package is here
+export RETINA_REPO="$HERE"                
 export PYTHONPATH="$HERE:${PYTHONPATH:-}"
 export TF_CPP_MIN_LOG_LEVEL=3
 

@@ -1,6 +1,5 @@
 # Seeded retraining — SEED = 20240501
 
-Fresh, seeded training of both neural modules (not the original, non-seeded 2022 run).
 Each folder holds the best checkpoint (lowest training loss), the per-epoch log
 (`history.csv`) and `metadata.json`.
 
