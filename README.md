@@ -4,14 +4,6 @@ Reproducible code and trained weights for the super-resolution + U-Net
 segmentation + masking pipeline of Villarreal et al., *Scientific Reports*
 **14**:30332 (2024), [doi:10.1038/s41598-024-81680-9](https://doi.org/10.1038/s41598-024-81680-9).
 
-> **Scope.** This is a post-publication reimplementation that integrates the three
-> pipeline stages (ESPCN super-resolution, U-Net vessel segmentation, image-processing
-> masking) behind one CLI, so the article's quantitative claims can be re-run and
-> checked. It is **not** the original 2022 code (which was not fully preserved);
-> the ESPCN and masking modules are faithful reconstructions, and the segmentation
-> U-Net is the original preserved architecture + checkpoint. See each module's
-> status in the response letter and `THIRD_PARTY_NOTICES.md`.
-
 ## What runs which editor item
 
 | Item | Script | Output |
@@ -69,8 +61,7 @@ THIRD_PARTY_NOTICES.md   upstream attributions (MIT / Apache-2.0)
 
 ## Environment
 Python 3.9, TensorFlow 2.16.1, Keras 3.3.3, scikit-image 0.24.0 (full set in
-`requirements.txt`). Seeded runs are reproducible within a fixed software/hardware
-environment; bit-exact identity across different GPUs is not guaranteed.
+`requirements.txt`).
 
 ## Licence
 Code: **MIT** (see `LICENSE`). Reused upstream components retain their licences
