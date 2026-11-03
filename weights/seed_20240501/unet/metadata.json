@@ -1,0 +1,13 @@
+{
+  "kind": "unet",
+  "seed": 20240501,
+  "loss": "bce",
+  "base_filters": 32,
+  "dropout": 0.1,
+  "learning_rate": 0.001,
+  "epochs": 100,
+  "steps_per_epoch": 100,
+  "n_images": 20,
+  "final_loss": 0.0998193547129631,
+  "note": "fresh seeded training; not the original 2022 run"
+}

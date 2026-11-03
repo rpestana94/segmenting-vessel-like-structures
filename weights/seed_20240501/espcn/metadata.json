@@ -1,0 +1,11 @@
+{
+  "kind": "espcn",
+  "seed": 20240501,
+  "scale": 3,
+  "learning_rate": 0.001,
+  "epochs": 100,
+  "steps_per_epoch": 200,
+  "n_images": 100,
+  "final_loss": 0.0030158264562487602,
+  "note": "fresh seeded training; SR training data is new, not the original experiment"
+}
